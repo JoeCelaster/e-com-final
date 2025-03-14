@@ -395,3 +395,9 @@ Order status (pending, shipped, delivered)
 Total price
 Timestamp
 Implemented an endpoint to store orders in the database.
+
+## Milestone 24: Added a Order Confirmation Page
+
+We have added Order Confirmation in the pages and imported and exported the Orderconfirmation page and made a user-friendly navigation through routes. Using this users can add the products to their carts and place order in the confirmaton page.
+
+
