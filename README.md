@@ -405,3 +405,4 @@ We have added Order Confirmation in the pages and imported and exported the Orde
 
 In this milestone this api helps for th eorder placemment by fetching the details from the users such as address, email, Order details and shipping addresses.
 
+## Milestone 26: 
