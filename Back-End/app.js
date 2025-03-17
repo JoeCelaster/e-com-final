@@ -6,6 +6,9 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const ErrorHandler = require("./middleware/error");
+const userRoutes = require("./controller/user");
+const productRoutes = require('./controller/product');
+const orders = require('./controller/orders');
 
 const app = express();
 
