@@ -401,3 +401,7 @@ Implemented an endpoint to store orders in the database.
 We have added Order Confirmation in the pages and imported and exported the Orderconfirmation page and made a user-friendly navigation through routes. Using this users can add the products to their carts and place order in the confirmaton page.
 
 
+## Milestone 25: Order placement API
+
+In this milestone this api helps for th eorder placemment by fetching the details from the users such as address, email, Order details and shipping addresses.
+
