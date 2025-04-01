@@ -406,3 +406,36 @@ We have added Order Confirmation in the pages and imported and exported the Orde
 In this milestone this api helps for th eorder placemment by fetching the details from the users such as address, email, Order details and shipping addresses.
 
 ## Milestone 26: 
+
+In this milestone we have added the CRUD operation for the order.js file and also created orderConfirmation page in react. 
+
+## Milestone 27: 
+
+In this milestone we have modified the CRUD operation for the order.js file and also created MyOrdersPage in react and also created a navigation to track MyOrder in Nav.jsx. 
+
+## Milestone 28:
+## Milestone 29:
+
+In this milestone we have created modified the orderConfirmation page by integrating the paypal API for seamless transaction and to a payment gateway.
+
+## Milestone 31:
+
+# Used Redux in Follow along
+
+Store Setup (store.js)
+
+Initializes Redux store using configureStore.
+
+Manages user state with email.
+
+
+Actions (userActions.js)
+setemail(email): Updates the email state.
+
+Usage in Components (Login.jsx, Signup.jsx)
+
+useDispatch() is used to dispatch setemail(email).
+
+Wrapping with Provider (index.js)
+
+Redux store is provided to the app using <Provider store={store}>.

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import Myproduct from "../Components/myproduct"; // <-- Import the Product component
-import Nav from "../Components/nav";
+import Nav from "../Components/nav.jsx";
 
 export default function MyProducts() {
     const [products, setProducts] = useState([]);
