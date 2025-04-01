@@ -6,7 +6,7 @@ import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
 import ValidationFormObject from "../../validation";
 import { useDispatch } from 'react-redux';
-import { setemail } from "../../store/userActions";
+import { setemail } from "../store/userActions";
 
 
 const Signup = () => {

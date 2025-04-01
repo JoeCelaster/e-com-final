@@ -4,19 +4,21 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import styles from "../styles/styles";
 import axios from "axios";
 import { useDispatch } from 'react-redux';
-import { setemail } from "../../store/userActions";
+import { setUserEmail } from "../store/userActions";
 
 
-const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post("http://localhost:8000/api/v2/user/login", { email, password });
+      dispatch(setUserEmail(email))
       console.log(response.data);
     } catch (error) {
       console.error("There was an error logging in!", error);
     }
   };
+  const Login = () => {
+  const dispatch = useDispatch()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
