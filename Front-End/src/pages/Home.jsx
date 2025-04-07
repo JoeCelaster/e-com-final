@@ -26,12 +26,11 @@ export default function Home() {
         setLoading(false);
       })
       .catch((err) => {
-        console.error("❌ Error fetching products:", err);
+        console.error(" Error fetching products:", err);
         setError(err.message);
         setLoading(false);
       });
   }, []);
-
 
   if (loading) {
     return <div className="text-center text-white mt-10">Loading products...</div>;

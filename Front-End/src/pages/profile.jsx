@@ -37,7 +37,7 @@ export default function Profile() {
 				setPersonalDetails(data.user);
 				setAddresses(data.addresses);
 				console.log("User fetched:", data.user);
-				console.log("Addresses fetched:", data.addresses);
+				console.log("Addresses fektched:", data.addresses);
 			})
             .catch((err) => console.log("Fetch error:", err));;
 	}, []);
